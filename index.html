@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rabbit AI - AI Assistant for Content Creation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">Rabbit AI</div>
+      <nav class="nav">
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faqs">FAQs</a>
+        <a href="about.html">About</a>
+        <div class="auth-buttons">
+          <a href="#" class="login">Login</a>
+          <a href="#" class="signup">Sign Up</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <h1>Supercharge Your Content Creation with AI</h1>
+      <p>Automate social media posts, generate video scripts, and create engaging content 10x faster</p>
+      <a href="#pricing" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <h2>Key Features</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Automated Content Creation</h3>
+          <p>Generate high-quality content for blogs, social media, and more in seconds.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Video Script Writing</h3>
+          <p>Create engaging video scripts for YouTube, TikTok, and other platforms.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Social Media Automation</h3>
+          <p>Schedule and automate posts across multiple platforms.</p>
+        </div>
+        <div class="feature-card">
+          <h3>AI-Powered Editing</h3>
+          <p>Refine and optimize your content with AI-driven suggestions.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <h2>Simple, Transparent Pricing</h2>
+      <div class="pricing-cards">
+        <div class="card">
+          <h3>Starter</h3>
+          <p class="price">FREE<span>/month</span></p>
+          <ul>
+            <li>5 Projects/month</li>
+            <li>Basic AI Writing</li>
+            <li>Social Media Templates</li>
+            <li>Email Support</li>
+          </ul>
+          <button class="card-button">Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Pro</h3>
+          <p class="price">$99<span>/month</span></p>
+          <ul>
+            <li>Unlimited Projects</li>
+            <li>Advanced AI Writing</li>
+            <li>Video Script Templates</li>
+            <li>Priority Support</li>
+            <li>Team Collaboration</li>
+          </ul>
+          <button class="card-button">Choose Plan</button>
+        </div>
+        <div class="card">
+          <h3>Enterprise</h3>
+          <p class="price">Custom</p>
+          <ul>
+            <li>Everything in Pro</li>
+            <li>Dedicated Account Manager</li>
+            <li>Custom Workflows</li>
+            <li>SLA</li>
+            <li>API Access</li>
+          </ul>
+          <button class="card-button">Contact Us</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs Section -->
+  <section id="faqs" class="faqs">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>What is Rabbit AI?</h3>
+          <p>Rabbit AI is an AI-powered assistant that helps you automate content creation, write scripts, and manage social media posts.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How does Rabbit AI work?</h3>
+          <p>Rabbit AI uses advanced natural language processing (NLP) to generate content based on your inputs and preferences.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I cancel my subscription?</h3>
+          <p>Yes, you can cancel your subscription at any time from your account settings.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is there a free trial?</h3>
+          <p>Yes, we offer a 7-day free trial for all new users.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h5>Rabbit AI</h5>
+          <p>Transforming content creation through intelligent automation</p>
+        </div>
+        <div class="footer-section">
+          <h6>Quick Links</h6>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h6>Connect</h6>
+          <div class="social-icons">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2023 Rabbit AI. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Smooth Scroll Script -->
+  <script src="script.js">
+
+    // Smooth Scroll for Navigation Links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+  </script>
+</body>
+</html>
