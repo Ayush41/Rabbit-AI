@@ -1,0 +1,34 @@
+rabbit-ai-express/
+├── public/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       ├── hero-image.png
+│       └── ayush-raj.jpg
+├── views/
+│   ├── partials/
+│   │   ├── header.ejs
+│   │   ├── footer.ejs
+│   ├── pages/
+│   │   ├── index.ejs
+│   │   ├── login.ejs
+│   │   ├── signup.ejs
+│   │   ├── dashboard.ejs
+│   │   ├── about.ejs
+│   └── layouts/
+│       └── main.ejs
+├── routes/
+│   ├── authRoutes.js
+│   ├── dashboardRoutes.js
+│   └── indexRoutes.js
+├── controllers/
+│   ├── authController.js
+│   ├── dashboardController.js
+│   └── indexController.js
+├── models/
+│   └── User.js
+├── app.js
+├── package.json
+└── .env
